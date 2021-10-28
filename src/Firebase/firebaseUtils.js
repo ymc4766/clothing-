@@ -13,7 +13,7 @@ import "firebase/compat/auth";
 // import { getFirestore } from "firebase/firestore";
 
 const config = {
-    ... ur config here
+    ... your config
 };
 
 firebase.initializeApp(config);
