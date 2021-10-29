@@ -13,7 +13,7 @@ function CollectionItem({ item, addItem }) {
 
   return (
     <div className="collection__item">
-      <div className="image" style={{ backgroundImage: `url(${imageUrl})` }} />
+      <div className="image" style={{ backgroundImage: `url(${imageUrl}) ` }} />
       <div className="collection__footer">
         {/* //collection footer */}
         <span className="name"> {name}</span>

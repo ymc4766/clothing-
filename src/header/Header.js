@@ -5,7 +5,7 @@ import { auth } from "../Firebase/firebaseUtils";
 import { connect } from "react-redux";
 import CartIcon from "../Carts/Cart-icon/CartIcon";
 import CartdropDown from "../Carts/cart-dropDown/CartdropDown";
-import { selectCartHidden } from "../actions/cart-selector";
+import { selectCartHidden } from "../actions/selectors/cart-selector";
 
 function Header({ currentUser, hidden }) {
   return (

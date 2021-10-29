@@ -13,7 +13,13 @@ import "firebase/compat/auth";
 // import { getFirestore } from "firebase/firestore";
 
 const config = {
-    ... your config
+  apiKey: "AIzaSyDDZe4IzJtieCx3swzA7WXQP6FTugu1Myk",
+  authDomain: "clothing-app-e04c6.firebaseapp.com",
+  projectId: "clothing-app-e04c6",
+  storageBucket: "clothing-app-e04c6.appspot.com",
+  messagingSenderId: "56257736556",
+  appId: "1:56257736556:web:97593a7b79ff47caa40d49",
+  measurementId: "G-LFP53QMEZ9",
 };
 
 firebase.initializeApp(config);

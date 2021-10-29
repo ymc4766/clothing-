@@ -8,7 +8,7 @@ import {
 } from "../actions/types";
 
 const INITIAL_STATE = {
-  hidden: false,
+  hidden: true,
   cartItems: [],
 };
 

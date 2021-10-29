@@ -5,7 +5,7 @@ import "./cartIcon-style.scss";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import { connect } from "react-redux";
 import { toggleCartHidden } from "../../actions/actions";
-import { selectCartItemsCount } from "../../actions/cart-selector";
+import { selectCartItemsCount } from "../../actions/selectors/cart-selector";
 
 function CartIcon({ toggleCartHidden, itemCount }) {
   // toglleCartHidden is action passed in cartIcon to dhow cartDropdown

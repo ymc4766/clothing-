@@ -8,7 +8,7 @@ import Header from "./header/Header";
 import Hompage from "./pages/Hompage/Hompage";
 import ShopPage from "./pages/Shop/ShopPage";
 import { signIn } from "./actions/actions";
-import { selectCurrentUser } from "./actions/user-selector";
+import { selectCurrentUser } from "./actions/selectors/user-selector";
 
 import CheckoutPage from "./pages/check-out-page/CheckoutPage";
 
@@ -43,14 +43,14 @@ class App extends React.Component {
   }
 
   render() {
-    console.log("curr", this.props.currentUser);
+    // console.log("curr", this.props.currentUser);
     return (
       <div className="app">
         <BrowserRouter>
           <Header currentUser={this.props.currentUser} />
           <div>
             <Route path="/" exact component={Hompage} />
-            <Route path="/shop" exact component={ShopPage} />
+            <Route path="/shop" component={ShopPage} />
             <Route path="/checkout" exact component={CheckoutPage} />
             <Route
               path="/signin"

@@ -26,16 +26,16 @@ export const addItem = (item) => {
   };
 };
 
-export const deleteItemFromCart = (item) => {
+export const removeItem = (item) => {
   return {
-    type: DELETE_ITEM_FROM_CART,
+    type: REMOVE_ITEM,
     payload: item,
   };
 };
 
-export const removeItem = (item) => {
+export const deleteItemFromCart = (item) => {
   return {
-    type: REMOVE_ITEM,
+    type: DELETE_ITEM_FROM_CART,
     payload: item,
   };
 };
